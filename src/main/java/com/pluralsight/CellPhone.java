@@ -7,21 +7,14 @@ public class CellPhone {
     private String phoneNumber;
     private String owner;
 
-    public CellPhone(int serialNumber, String owner, String phoneNumber, String model, String carrier) {
-        this.serialNumber = serialNumber;
-        this.owner = owner;
-        this.phoneNumber = phoneNumber;
-        this.model = model;
-        this.carrier = carrier;
+    public CellPhone() {
+        serialNumber = 0;
+        owner = "";
+        phoneNumber ="";
+        model = "";
+        carrier = "";
     }
 
-    public CellPhone() {
-        this.serialNumber = 0;
-        this.model = "";
-        this.carrier = "";
-        this.phoneNumber = "";
-        this.owner = "";
-    }
 
     public int getSerialNumber() {
         return serialNumber;
