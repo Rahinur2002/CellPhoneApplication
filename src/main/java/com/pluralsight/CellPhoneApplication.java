@@ -30,11 +30,11 @@ public class CellPhoneApplication {
         myPhone.setPhoneNumber(phoneNumber);
         myPhone.setOwner(owner);
 
-        System.out.println(serialNumbers);
-        System.out.println(phoneModel);
-        System.out.println(phoneCarrier);
-        System.out.println(phoneNumber);
-        System.out.println(owner);
+        System.out.println("Serial Number: " + myPhone.getSerialNumber());
+        System.out.println("Phone Model: " + myPhone.getModel());
+        System.out.println("Phone Carrier: " + myPhone.getCarrier());
+        System.out.println("Phone Number: " + myPhone.getPhoneNumber());
+        System.out.println("Owner: " + myPhone.getOwner());
 
 
 
